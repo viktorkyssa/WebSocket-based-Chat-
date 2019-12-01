@@ -9,7 +9,7 @@ const AddMessage = props => {
 			<input type="text" 
 					onKeyPress={e => {
 						if(e.key === 'Enter') {
-							props.dispatch(input.value, 'Me');
+							props.dispatch(input.value, 'Me: ');
 							input.value = '';
 					}}}		
 					ref={node => {
