@@ -3,7 +3,7 @@ import PropsTypes from 'prop-types';
 
 const Message = ({author, message}) => (
     <p>
-        <i>{author}</i>
+        <i>{author}:</i>
         {message}
     </p>
 );
